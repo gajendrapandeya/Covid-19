@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Covid-19 Nepal</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="starting_words">
+
+        CORONA(COVID-19) PROTECTION IS \nEVERYTHING!
+    </string>
+
+    <string name="main_words">
+
+        Corona virus disease(COVID-19) is a new strain \nthat was discovered in 2019 and has not been \npreviously identified in humans. Reported \nillnesses have ranged from mild symptoms to severe illness and death for confirmed\ncorona virus diseases 2019(COVID-19) cases.
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="about">Covid-19 is a app that collects the recent data about the pandemic corona virus
+    and provides the useful information to the user dynamically. I made a use of an api to fetch the stats about
+    corona on different nations of the world. </string>
+</resources>

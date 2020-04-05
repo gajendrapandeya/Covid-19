@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".HospitalsActivity">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="Hospital Name"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="Open Hours"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="Contact"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout"
+        android:layout_marginTop="14dp"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>

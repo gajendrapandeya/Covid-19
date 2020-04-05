@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:text="Dr.Shrawan K.Mishra"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_one"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button_setting"
+            android:drawableLeft="@drawable/ic_emergency"
+            android:padding="12dp"
+            android:text="9851168220"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:text="Dr.Ranjit Shah"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_two"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button_setting"
+            android:drawableLeft="@drawable/ic_emergency"
+            android:padding="12dp"
+            android:text="9872701465"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Dr.Rajesh K.Gupta"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_three"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button_setting"
+            android:drawableLeft="@drawable/ic_emergency"
+            android:padding="12dp"
+            android:text="9851239988"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Dr.Dinesh Thapa Magar"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_four"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button_setting"
+            android:drawableLeft="@drawable/ic_emergency"
+            android:padding="12dp"
+            android:text="9823168540"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Dr.Naresh Thapa Magar"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_five"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button_setting"
+            android:drawableLeft="@drawable/ic_emergency"
+            android:padding="12dp"
+            android:text="9803152149"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/corona" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:padding="10dp"
+        android:layout_below="@+id/image"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STAY HOME STAY SAFE"
+            android:textSize="33sp"
+            android:layout_marginTop="0dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
